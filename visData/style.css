@@ -1,0 +1,75 @@
+#content {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.name {
+    font-family: 'Grenze', serif;
+    color: black;
+    background-color: wheat;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 5px;
+    border:solid 5px black;
+
+}
+
+.user_info h1{
+    font-size: 20px;;
+    text-align: center;
+}
+
+.pic img {
+    width: 200px;
+    height: 200px;
+    border: solid 5px black;
+}
+
+ img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.rec {
+    font-family: 'Libre Caslon Text', serif;
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    width: 80vw;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+form {
+    font-family: 'Grenze', serif;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    width: 90%;
+    align-items: center;
+    /* justify-items: center; */
+    background-color: lightgray;
+    padding: 5px;
+}
+
+form img {
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
+    /* float: left; */
+    /* justify-self: flex-start; */
+}
+
+.footer {
+    display: flex;
+    padding: 25px;
+    font-size: 25px;
+    justify-content: center;
+}
